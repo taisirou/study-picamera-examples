@@ -37,6 +37,7 @@ class PersonDetector(object):
         self.flip = flip
         time.sleep(2.0)
         
+        
     def __del__(self):
         self.vs.stop()
 
